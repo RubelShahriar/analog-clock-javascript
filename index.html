@@ -15,6 +15,12 @@
         font-family: Arial, sans-serif;
       }
 
+      h2 {
+        color: aquamarine;
+        margin-bottom: 100px;
+        text-align: center;
+      }
+
       .clock {
         width: 300px;
         height: 300px;
@@ -83,14 +89,17 @@
     </style>
   </head>
   <body>
-    <div class="clock">
-      <div class="hand hour-hand"></div>
-      <div class="hand minute-hand"></div>
-      <div class="hand second-hand"></div>
-      <div class="center-circle"></div>
+    <div>
+      <h2>Analog Clock</h2>
+      <div class="clock">
+        <div class="hand hour-hand"></div>
+        <div class="hand minute-hand"></div>
+        <div class="hand second-hand"></div>
+        <div class="center-circle"></div>
 
-      <!-- Clock numbers -->
-      <div class="number" id="numbers"></div>
+        <!-- Clock numbers -->
+        <div class="number" id="numbers"></div>
+      </div>
     </div>
 
     <script>
